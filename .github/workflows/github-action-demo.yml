@@ -1,0 +1,8 @@
+name : "Newman Test"
+on :[push, pull_request]
+
+jobs:
+build:
+run on: unbutu lastest
+container: 
+image: postman/newman
